@@ -18,7 +18,9 @@ jobs:
           sudo apt-get install hugo
       
       - name: Set up build branch
-        run: git worktree add build origin/build
+        run: |
+          git fetch
+          git worktree add build origin/build
 
       - name: Build website
         run: |
