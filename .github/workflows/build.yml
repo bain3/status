@@ -20,7 +20,7 @@ jobs:
       - name: Set up build branch
         run: |
           git fetch
-          git worktree add build origin/build
+          git worktree add build build
 
       - name: Build website
         run: |
