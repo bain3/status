@@ -3,73 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.com/</loc>
-    <lastmod>2021-10-17T18:23:27+02:00</lastmod>
+    <loc>https://status.bain.cz/affected/</loc>
   </url>
   
   <url>
-    <loc>https://example.com/issues/</loc>
-    <lastmod>2021-10-17T18:23:27+02:00</lastmod>
+    <loc>https://status.bain.cz/</loc>
+    <lastmod>2021-10-17T18:43:28+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/issues/2024-02-24-maintenance-window/</loc>
-    <lastmod>2021-10-17T18:23:27+02:00</lastmod>
+    <loc>https://status.bain.cz/pages/example-page/</loc>
+    <lastmod>2021-10-17T18:43:28+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/affected/</loc>
-    <lastmod>2021-10-17T18:23:27+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/affected/api/</loc>
-    <lastmod>2021-10-17T18:23:27+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/issues/2019-10-08-testing-new-pipeline/</loc>
-    <lastmod>2021-10-17T18:23:27+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/issues/i-testing-cstate-functions/</loc>
-    <lastmod>2021-10-17T18:23:27+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/affected/gateway/</loc>
-    <lastmod>2021-10-17T18:23:27+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/affected/media-proxy/</loc>
-    <lastmod>2021-10-17T18:23:27+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/issues/2018-05-25-us-east-conn-issues/</loc>
-    <lastmod>2021-10-17T18:23:27+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/issues/2018-04-13-unavailable-guilds-connection-issues/</loc>
-    <lastmod>2021-10-17T18:23:27+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/issues/2018-01-17-sending-dms-impacted/</loc>
-    <lastmod>2021-10-17T18:23:27+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/pages/example-page/</loc>
-    <lastmod>2021-10-17T18:23:27+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/pages/</loc>
-    <lastmod>2021-10-17T18:23:27+02:00</lastmod>
+    <loc>https://status.bain.cz/pages/</loc>
+    <lastmod>2021-10-17T18:43:28+02:00</lastmod>
   </url>
   
 </urlset>

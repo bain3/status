@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <meta name="description" content="We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.">
-    <title>Eggsample Status</title>
-    <link rel="canonical" href="https://example.com/">
-    <link rel="alternate" type="application/json" href="https://example.com/index.json" title="Eggsample Status" />
-    <link rel="alternate" type="application/rss+xml" href="https://example.com/index.xml" title="Eggsample Status" />
-    <link rel="alternate" type="image/svg+xml" href="https://example.com/index.svg" title="Eggsample Status" />
+    <title>bain.cz status</title>
+    <link rel="canonical" href="https://status.bain.cz/">
+    <link rel="alternate" type="application/json" href="https://status.bain.cz/index.json" title="bain.cz status" />
+    <link rel="alternate" type="application/rss+xml" href="https://status.bain.cz/index.xml" title="bain.cz status" />
+    <link rel="alternate" type="image/svg+xml" href="https://status.bain.cz/index.svg" title="bain.cz status" />
     <meta name="generator" content="cState v5.0.4 - https://github.com/cstate/cstate">
     <meta name="theme-color" content="#0a0c0f">
     <script>
@@ -404,10 +404,10 @@
 
 <div class="header">
   <div class="contain">
-    <a href="https://example.com" class="header__logo header__logo--small">
+    <a href="https://status.bain.cz/" class="header__logo header__logo--small">
       
-        <img src="/logo.png" alt="Eggsample Status">
-          
+        <h1>bain.cz status</h1>
+      
     </a>
   </div>
 </div>
@@ -468,203 +468,7 @@
   
 
   
-    <div class="category category--closed category--titled" id="north-coast">
-      
-      <div class="bold padding clicky category__head" onclick="toggleCategoryHead(this)">
-        <span class="hide-without-js">
-          <span class="category__closed-marker">►</span>
-          <span class="category__open-marker">✕</span>
-        </span>
-
-      <b>
-        North Coast
-      </b>
-      
-      
-        <span class="tooltip tooltip--small">
-          &nbsp; <span class="faded">(?)</span>
-
-          <span class="tooltip__text">
-            The main servers are located here.
-          </span>
-        </span>
-      
- 
-      <span class="category-status"></span>
-
-      </div>
-      
-
-      
-
-      <div class="components">
-      
-        
-
-        
-        
-        
-
-        <div class="component" data-status="ok">
-          <a href="/affected/gateway/" class="no-underline">
-            Gateway
-          </a>
-
-          
-
-          <span class="component-status">
-            
-            
-            
-              Operational
-            
-          </span>
-
-          
-        </div>
-      
-        
-
-        
-        
-        
-
-        <div class="component" data-status="ok">
-          <a href="/affected/backup-gateway/" class="no-underline">
-            Backup Gateway
-          </a>
-
-          
-
-          <span class="component-status">
-            
-            
-            
-              Operational
-            
-          </span>
-
-          
-        </div>
-      
-      </div> 
-
-      
-      <script>
-        
-        thisCategory = document.currentScript.parentNode 
-
-        componentsOfThisCategory = thisCategory.querySelectorAll('.component')
-        
-        
-        
-        
-        
-        
-        var highlestLevelStatus = '';
-
-        function checkStatus(element) {
-          var status = element.getAttribute('data-status');
-
-          if (status === 'down') {
-            highlestLevelStatus = 'down'
-          } else if (status === 'disrupted' && highlestLevelStatus !== 'down') {
-            highlestLevelStatus = 'disrupted'
-          } else if (status === 'notice' && highlestLevelStatus !== 'down' && highlestLevelStatus !== 'disrupted') {
-            highlestLevelStatus = 'notice'
-          }
-        }
-
-        componentsOfThisCategory.forEach(element => checkStatus(element));
-        
-        
-        var highlestLevelStatusReadable = highlestLevelStatus;
-
-        if (highlestLevelStatus === 'ok') { highlestLevelStatusReadable = 'Operational' } 
-        if (highlestLevelStatus === 'notice') { highlestLevelStatusReadable = 'Maintenance' } 
-        if (highlestLevelStatus === 'dsirupted') { highlestLevelStatusReadable = 'Disrupted' } 
-        if (highlestLevelStatus === 'down') { highlestLevelStatusReadable = 'Down' } 
-
-        
-        
-        if (thisCategory.classList.contains('category--titled')) {
-          thisCategory.querySelector('.category__head').setAttribute('data-status', highlestLevelStatus);
-          thisCategory.querySelector('.category-status').innerHTML = highlestLevelStatusReadable;
-        }
-      </script>
-    </div>
-  
-    <div class="category category--open category--titled" id="empty-category">
-      
-      <div class="bold padding clicky category__head" onclick="toggleCategoryHead(this)">
-        <span class="hide-without-js">
-          <span class="category__closed-marker">►</span>
-          <span class="category__open-marker">✕</span>
-        </span>
-
-      <b>
-        Empty Category
-      </b>
-      
-      
- 
-      <span class="category-status"></span>
-
-      </div>
-      
-
-      
-
-      <div class="components">
-      
-      </div> 
-
-      
-      <script>
-        
-        thisCategory = document.currentScript.parentNode 
-
-        componentsOfThisCategory = thisCategory.querySelectorAll('.component')
-        
-        
-        
-        
-        
-        
-        var highlestLevelStatus = '';
-
-        function checkStatus(element) {
-          var status = element.getAttribute('data-status');
-
-          if (status === 'down') {
-            highlestLevelStatus = 'down'
-          } else if (status === 'disrupted' && highlestLevelStatus !== 'down') {
-            highlestLevelStatus = 'disrupted'
-          } else if (status === 'notice' && highlestLevelStatus !== 'down' && highlestLevelStatus !== 'disrupted') {
-            highlestLevelStatus = 'notice'
-          }
-        }
-
-        componentsOfThisCategory.forEach(element => checkStatus(element));
-        
-        
-        var highlestLevelStatusReadable = highlestLevelStatus;
-
-        if (highlestLevelStatus === 'ok') { highlestLevelStatusReadable = 'Operational' } 
-        if (highlestLevelStatus === 'notice') { highlestLevelStatusReadable = 'Maintenance' } 
-        if (highlestLevelStatus === 'dsirupted') { highlestLevelStatusReadable = 'Disrupted' } 
-        if (highlestLevelStatus === 'down') { highlestLevelStatusReadable = 'Down' } 
-
-        
-        
-        if (thisCategory.classList.contains('category--titled')) {
-          thisCategory.querySelector('.category__head').setAttribute('data-status', highlestLevelStatus);
-          thisCategory.querySelector('.category-status').innerHTML = highlestLevelStatusReadable;
-        }
-      </script>
-    </div>
-  
-    <div class="category category--open" id="uncategorized">
+    <div class="category category--open" id="all">
       
       <div class="padding"></div>
       
@@ -680,18 +484,10 @@
         
 
         <div class="component" data-status="ok">
-          <a href="/affected/api/" class="no-underline">
-            API
+          <a href="/affected/f.bain/" class="no-underline">
+            f.bain
           </a>
 
-          
-            <span class="tooltip tooltip--small">
-              &nbsp; <span class="faded">(?)</span>
-
-              <span class="tooltip__text">
-                The guts of the application.
-              </span>
-            </span>
           
 
           <span class="component-status">
@@ -712,18 +508,34 @@
         
 
         <div class="component" data-status="ok">
-          <a href="/affected/media-proxy/" class="no-underline">
-            Media Proxy
+          <a href="/affected/s.bain/" class="no-underline">
+            s.bain
           </a>
 
           
-            <span class="tooltip tooltip--small">
-              &nbsp; <span class="faded">(?)</span>
 
-              <span class="tooltip__text">
-                This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
-              </span>
-            </span>
+          <span class="component-status">
+            
+            
+            
+              Operational
+            
+          </span>
+
+          
+        </div>
+      
+        
+
+        
+        
+        
+
+        <div class="component" data-status="ok">
+          <a href="/affected/ts3.bain.cz/" class="no-underline">
+            ts3.bain.cz
+          </a>
+
           
 
           <span class="component-status">
@@ -809,243 +621,6 @@
         
 
 
-
-  
-  <p class="center archive__head" id="archive-2024"><a href="#archive-2024" class="no-underline"><strong>2024</strong>
-    <span class="faded">(1)</span>
-  </a></p>
-  
-  
-    
-
-
-
-
-
-
-<a href="https://example.com/issues/2024-02-24-maintenance-window/" class="issue no-underline">
-  
-
-  <small class="date float-right relative-time" title="Feb 24 10:35:00 2024 UTC">
-      
-        February 24, 2024 at 10:35 AM UTC
-      
-    </small>
-
-    <h3>
-      Maintenance Announcement &nbsp;ℹ
-    </h3>
-    <span class="faded">We will shut down our network at midnight UTC on Feb 24. This does not affect the current status.
-    </span>
-
-  
-</a>
-
-  
-
-  
-  <p class="center archive__head" id="archive-2019"><a href="#archive-2019" class="no-underline"><strong>2019</strong>
-    <span class="faded">(2)</span>
-  </a></p>
-  
-  
-    
-
-
-
-
-
-
-<a href="https://example.com/issues/2019-10-08-testing-new-pipeline/" class="issue no-underline">
-  
-  <small class="date float-right relative-time" title="Oct 5 16:24:00 2019 UTC">
-      
-        October 5, 2019 at 4:24 PM UTC
-      
-    </small>
-
-    <h3>
-      New Pipeline Rollout
-    </h3>
-
-    
-    
-    
-
-    
-    
-      
-        <div class="ok">
-          Resolved after
-
-          
-
-          34m
-           of downtime
-        </div>
-      
-    
-
-  
-</a>
-
-  
-    
-
-
-
-
-
-
-<a href="https://example.com/issues/i-testing-cstate-functions/" class="issue no-underline">
-  
-
-  <small class="date float-right relative-time" title="Oct 4 18:05:00 2019 UTC">
-      
-        October 4, 2019 at 6:05 PM UTC
-      
-    </small>
-
-    <h3>
-      Testing New cState Features &nbsp;ℹ
-    </h3>
-    <span class="faded">There is a new feature in cState version 4 that lets you make what are called informational posts. The main difference is that there will be no Unresolved or Resolved in under a minute text on the …
-    </span>
-
-  
-</a>
-
-  
-
-  
-  <p class="center archive__head" id="archive-2018"><a href="#archive-2018" class="no-underline"><strong>2018</strong>
-    <span class="faded">(2)</span>
-  </a></p>
-  
-  
-    
-
-
-
-
-
-
-<a href="https://example.com/issues/2018-05-25-us-east-conn-issues/" class="issue no-underline">
-  
-  <small class="date float-right relative-time" title="Apr 25 04:13:00 2018 UTC">
-      
-        April 25, 2018 at 4:13 AM UTC
-      
-    </small>
-
-    <h3>
-      US East Connection Issues
-    </h3>
-
-    
-    
-    
-
-    
-    
-    <div class="faded">
-      Resolved in under a minute
-    </div>
-    
-
-  
-</a>
-
-  
-    
-
-
-
-
-
-
-<a href="https://example.com/issues/2018-04-13-unavailable-guilds-connection-issues/" class="issue no-underline">
-  
-  <small class="date float-right relative-time" title="Apr 13 15:54:00 2018 UTC">
-      
-        April 13, 2018 at 3:54 PM UTC
-      
-    </small>
-
-    <h3>
-      Unavailable Guilds &amp; Connection Issues
-    </h3>
-
-    
-    
-    
-
-    
-    
-      
-        <div class="warning">
-          Resolved after
-
-          
-
-          1h
-          36m of downtime
-        </div>
-      
-    
-
-  
-</a>
-
-  
-
-  
-  <p class="center archive__head" id="archive-2017"><a href="#archive-2017" class="no-underline"><strong>2017</strong>
-    <span class="faded">(1)</span>
-  </a></p>
-  
-  
-    
-
-
-
-
-
-
-<a href="https://example.com/issues/2018-01-17-sending-dms-impacted/" class="issue no-underline">
-  
-  <small class="date float-right relative-time" title="Dec 17 16:24:00 2017 UTC">
-      
-        December 17, 2017 at 4:24 PM UTC
-      
-    </small>
-
-    <h3>
-      Issues Sending DMs
-    </h3>
-
-    
-    
-    
-
-    
-    
-      
-        <div class="ok">
-          Resolved after
-
-          
-
-          34m
-           of downtime
-        </div>
-      
-    
-
-  
-</a>
-
-  
 
 
       
@@ -1180,7 +755,7 @@
 
 <div class="footer">
   <div class="contain">
-    <p><strong class="bold">&copy; Eggsample Status, 2021</strong>
+    <p><strong class="bold">&copy; bain.cz status, 2021</strong>
        &nbsp; • &nbsp; <a href="#">Back to top</a>
     </p>
 
@@ -1197,7 +772,7 @@
           ⚡
           Subscribe via RSS —
           
-            <a href="https://example.com/index.xml" class="no-underline">to all updates</a>
+            <a href="https://status.bain.cz/index.xml" class="no-underline">to all updates</a>
           
           
         </small>

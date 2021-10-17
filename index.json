@@ -2,28 +2,15 @@
   "is": "index",
   "cStateVersion": "5.0.4",
   "apiVersion": "2.0",
-  "title": "Eggsample Status",
+  "title": "bain.cz status",
   "languageCodeHTML": "en",
   "languageCode": "en",
-  "baseURL": "https://example.com", 
+  "baseURL": "https://status.bain.cz/", 
   "description": "We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.",
   "summaryStatus": "ok", 
   "categories": [
       {
-        "name": "North Coast",
-        "description": "The main servers are located here.",
-        "hideTitle": false,
-        "closedByDefault": true
-      }
-    ,
-      {
-        "name": "Empty Category",
-        "hideTitle": false,
-        "closedByDefault": false
-      }
-    ,
-      {
-        "name": "Uncategorized",
+        "name": "all",
         "hideTitle": true,
         "closedByDefault": false
       }
@@ -32,8 +19,8 @@
   "systems": [
     
       {
-        "name": "Gateway",
-        "category": "North Coast", 
+        "name": "f.bain",
+        "category": "all", 
         
         "status": "ok",
         
@@ -41,8 +28,8 @@
         
       },
       {
-        "name": "Backup Gateway",
-        "category": "North Coast", 
+        "name": "s.bain",
+        "category": "all", 
         
         "status": "ok",
         
@@ -50,19 +37,8 @@
         
       },
       {
-        "name": "API",
-        "description": "The guts of the application.",
-        "category": "Uncategorized", 
-        
-        "status": "ok",
-        
-        "unresolvedIssues": []
-        
-      },
-      {
-        "name": "Media Proxy",
-        "description": "This is the service responsible for serving images, audio, and video. It is reliant on our CDN.",
-        "category": "Uncategorized", 
+        "name": "ts3.bain.cz",
+        "category": "all", 
         
         "status": "ok",
         
@@ -73,7 +49,7 @@
   
   
   "buildDate": "2021-10-17",
-  "buildTime": "16:24",
+  "buildTime": "16:44",
   "buildTimezone": "UTC",
   "colorBrand": "#0a0c0f",
   "colorOk": "#008000",
@@ -81,6 +57,6 @@
   "colorDown": "#e60000",
   "colorNotice": "#24478f",
   "alwaysKeepBrandColor": "true",
-  "logo": "https://example.com/logo.png",
+  "logo": "https://status.bain.cz/logo.png",
   "googleAnalytics": "UA-00000000-1"
 }
