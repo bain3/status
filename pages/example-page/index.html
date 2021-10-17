@@ -436,18 +436,18 @@ for i in 1 .. 10 { do-something(i) }
 </code></pre>
 <p>As you probably guessed, indented 4 spaces. By the way, instead of
 indenting the block, you can use delimited blocks, if you like:</p>
-<pre tabindex="0"><code>define foobar() {
+<pre><code>define foobar() {
     print &quot;Welcome to flavor country!&quot;;
 }
 </code></pre><p>(which makes copying &amp; pasting easier). You can optionally mark the
 delimited block for Pandoc to syntax highlight it:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> time
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> time
 <span style="color:#75715e"># Quick, count to ten!</span>
 <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">10</span>):
     <span style="color:#75715e"># (but not *too* quick)</span>
     time<span style="color:#f92672">.</span>sleep(<span style="color:#ae81ff">0.5</span>)
-    print(i)
-</code></pre></div><h3 id="an-h3-header">An h3 header</h3>
+    <span style="color:#66d9ef">print</span>(i)
+</code></pre></div><h3 id="an-h3-header-">An h3 header</h3>
 <p>Now a nested list:</p>
 <ol>
 <li>
@@ -550,7 +550,7 @@ which you wish to be displayed literally, ex.: `foo`, *bar*, etc.</p>
 <hr>
 <ol>
 <li id="fn:1" role="doc-endnote">
-<p>Some footnote text.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>Some footnote text. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </section>
