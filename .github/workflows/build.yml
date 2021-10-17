@@ -1,0 +1,34 @@
+name: Build
+on:
+  push:
+    branches: [ master ]
+    paths: [ src/* ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Get hugo
+        run: |
+          sudo apt-get update
+          sudo apt-get install hugo
+
+      - name: Build website
+        run: |
+          cd src
+          hugo -d ../build
+      
+      - name: Copy CNAME
+        run: cp CNAME build/
+      
+      - name: Commit to build branch
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "<>"
+          git add build
+          git commit -m "build $GITHUB_REF"
+          git subtree push --force --prefix build origin build
