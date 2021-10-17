@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "New Pipeline Rollout",
+  "createdAt": "2019-10-05 16:24:00 +0000 UTC",
+  "lastMod": "2019-10-05 16:24:00 +0000 UTC",
+  "permalink": "https://example.com/issues/2019-10-08-testing-new-pipeline/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2019-10-05 16:58:00",
+  "affected": ["API"],
+  "filename": "2019-10-08-testing-new-pipeline.md"
+}

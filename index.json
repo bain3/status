@@ -1,0 +1,86 @@
+{
+  "is": "index",
+  "cStateVersion": "5.0.4",
+  "apiVersion": "2.0",
+  "title": "Eggsample Status",
+  "languageCodeHTML": "en",
+  "languageCode": "en",
+  "baseURL": "https://example.com", 
+  "description": "We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.",
+  "summaryStatus": "ok", 
+  "categories": [
+      {
+        "name": "North Coast",
+        "description": "The main servers are located here.",
+        "hideTitle": false,
+        "closedByDefault": true
+      }
+    ,
+      {
+        "name": "Empty Category",
+        "hideTitle": false,
+        "closedByDefault": false
+      }
+    ,
+      {
+        "name": "Uncategorized",
+        "hideTitle": true,
+        "closedByDefault": false
+      }
+    
+  ],
+  "systems": [
+    
+      {
+        "name": "Gateway",
+        "category": "North Coast", 
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      },
+      {
+        "name": "Backup Gateway",
+        "category": "North Coast", 
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      },
+      {
+        "name": "API",
+        "description": "The guts of the application.",
+        "category": "Uncategorized", 
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      },
+      {
+        "name": "Media Proxy",
+        "description": "This is the service responsible for serving images, audio, and video. It is reliant on our CDN.",
+        "category": "Uncategorized", 
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      }
+  ],
+  
+  
+  "buildDate": "2021-10-17",
+  "buildTime": "16:13",
+  "buildTimezone": "CEST",
+  "colorBrand": "#0a0c0f",
+  "colorOk": "#008000",
+  "colorDisrupted": "#cc4400",
+  "colorDown": "#e60000",
+  "colorNotice": "#24478f",
+  "alwaysKeepBrandColor": "true",
+  "logo": "https://example.com/logo.png",
+  "googleAnalytics": "UA-00000000-1"
+}
