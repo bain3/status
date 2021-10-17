@@ -18,7 +18,7 @@ jobs:
           sudo apt-get install hugo
       
       - name: Set up build branch
-        run: git worktree add build build
+        run: git worktree add build origin/build
 
       - name: Build website
         run: |
@@ -32,6 +32,6 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "<>"
-          git add build
+          git add -f build
           git commit -m "build $GITHUB_REF"
           git push origin build
