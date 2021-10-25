@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <link rel="alternate" type="text/html" href="https://status.bain.cz/"/>
-    <title>Issues on bain.cz status</title>
-    <link>https://status.bain.cz/issues/</link>
+    <title>s.bain on bain.cz status</title>
+    <link>https://status.bain.cz/affected/s.bain/</link>
     <description>Incident history</description>
     <generator>github.com/cstate</generator>
     <language>en</language>
@@ -12,7 +12,7 @@
     
     
     
-      <atom:link href="https://status.bain.cz/issues/index.xml" rel="self" type="application/rss+xml" />
+      <atom:link href="https://status.bain.cz/affected/s.bain/index.xml" rel="self" type="application/rss+xml" />
     
     
       <item>

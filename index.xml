@@ -8,11 +8,23 @@
       <generator>github.com/cstate</generator>
       <language>en</language>
       
+      <lastBuildDate>Mon, 25 Oct 2021 16:46:00 +0000</lastBuildDate>
+      
       
       
         <atom:link href="https://status.bain.cz/index.xml" rel="self" type="application/rss+xml" />
       
       
+      
+        <item>
+          <title>[Resolved] System upgrade</title>
+          <link>https://status.bain.cz/issues/2021-10-25-downtime/</link>
+          <pubDate>Mon, 25 Oct 2021 16:46:00 +0000</pubDate>
+          <guid>https://status.bain.cz/issues/2021-10-25-downtime/</guid>
+          <category>2021-10-25 17:11:00</category>
+          <description>&lt;p&gt;A system upgrade has caused a shut down of all dockerized services. They have all been restarted.&lt;/p&gt;
+</description>
+        </item>
       
     </channel>
   </rss>
