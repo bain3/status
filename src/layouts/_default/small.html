@@ -20,7 +20,7 @@
                 Resolved after {{$diffInMin}} minutes {{ if eq .Params.severity "down" }} of downtime {{ end }}
             </span>
         {{ end }}
-        {{ if not .Params.resolved }} 
+        {{ if and (not .Params.resolved) .Params.affected }} 
         <span style="display: block"><b>Affecting</b>: {{ delimit .Params.affected ", " }}</span> 
         {{ end }}
         </p>
