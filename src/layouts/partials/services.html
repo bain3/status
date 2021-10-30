@@ -1,0 +1,47 @@
+{{ $activeIncidents := where .Site.RegularPages "Params.resolved" nil }}
+
+{{ if (where $activeIncidents "Params.maintenance" nil) }}
+    <h4 style="text-align: center; color: orange; margin: 2em 0">Issues detected</h4>
+{{ else }}
+    <h4 style="text-align: center; color: lightgreen; margin: 2em 0">All systems operational</h4>
+{{ end }}
+<ul>
+    {{ range .Site.Params.services }}
+        {{$serviceActiveIncidents := where $activeIncidents "Params.affected" "intersect" (slice .)}}
+        {{ $isDown := where $serviceActiveIncidents "Params.severity" "=" "down" }}
+        {{ $isDisrupted := where $serviceActiveIncidents "Params.severity" "=" "disrupted" }}
+        {{ $maintenance := first 1 (where $serviceActiveIncidents.ByDate "Params.maintenance" true) }}
+
+        <li>
+            [
+            <span class="service" style="color: {{ if $isDown }}red{{ else if $isDisrupted }}orange{{ else }}lightgreen{{ end }}" {{ range $maintenance }} data-maintenance="{{ .Date.Unix }}" {{ end }}>
+                {{ if $isDown }}
+                    down
+                {{ else if $isDisrupted }}
+                    disrupted
+                {{ else }}
+                    operational
+                {{ end }}
+            </span> 
+            ]
+            <a href="/affected/{{ . }}/">{{ . }}</a>
+        </li>
+    {{ end }}
+</ul>
+
+<script defer>
+    // dynamically set status to maintenance when it starts
+
+    async function refreshMaintenance() {
+        for (let el of document.getElementsByClassName('service')) {
+            let maintenance = el.getAttribute('data-maintenance');
+            console.log(maintenance);
+            if (maintenance != undefined && new Date(parseInt(maintenance)*1000) < new Date()) {
+                console.log("a");
+                el.innerText = "maintenance";
+                el.style.color = "lightblue";
+            }
+        }
+    }
+    refreshMaintenance();
+</script>

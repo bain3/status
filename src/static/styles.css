@@ -1,0 +1,40 @@
+body {
+    background: #221f1f;
+    color: #fefefe;
+    font-family: monospace;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: min(65ch, 95vw);
+}
+
+a {
+    color: #fefefe;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #8b8b8b;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+ 
+ul li:before {
+    color: #fefefe;
+    content: '- ';
+    font-weight: bold;
+}
+
+li {
+    margin-top: 0.25em;
+    margin-bottom: 0.25;
+}

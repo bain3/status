@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>{{ .Title }}</title>
+        <link rel="stylesheet" href="/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div style="max-width: min(70ch, 95vw); margin: 5em auto">
+            <noscript style="color: red">
+                Hi, looks like you have js disabled. No worries, you just won't have relative times :) 
+            </noscript>
+            <h2 style="text-align: center">status.bain.cz</h2>
+            <p>
+                Status page for all services hosted on the bain.cz domain. I am continuously monitoring
+                the status of my services and if there are any interruptions, I will post a note here.
+            </p>
+
+            {{ partial "services.html" . }}
+
+            <h3 style="margin-top: 3em">Incident history</h3>
+            {{ range $.Site.RegularPages.ByDate.Reverse }}
+            {{ .Render "small" }}
+            {{ end }}
+        </div>
+        {{ partial "jsrelativetime.html" }}
+    </body>
+</html>

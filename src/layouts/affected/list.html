@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <link href="/styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div style="margin: 5em auto; max-width: min(70ch, 95vw)">
+            <h3 style="text-align: center">Incidents affecting {{ .Title }} </h3>
+            {{ range .Pages }}
+            {{ .Render "small" }}
+            {{ end }}
+            <br>
+            <a href="/">&lt;&lt; back to home </a>
+        </div>
+    </body>
+{{ partial "jsrelativetime.html" }}
+</html>

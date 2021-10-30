@@ -1,0 +1,29 @@
+<script defer>
+    async function refreshRelativeTimes() {
+        for (const el of document.getElementsByClassName('relative')) {
+            let time = new Date(parseInt(el.getAttribute('time'))*1000);
+            let diff = (new Date().getTime()-time)/1000;
+            let in_future = diff < 0;
+            let output = in_future ? "in " : "";
+            diff = Math.abs(diff);
+
+            if (diff < 60) {
+                output += "a few second";
+                diff += 2; // make sure it says seconds
+            } else if (diff < 60*60) {
+                diff /= 60;
+                output += `${Math.floor(diff)} minute`;
+            } else if (diff < 60*60*24) {
+                diff /= 60*60;
+                output += `${Math.floor(diff)} hour`;
+            } else {
+                diff /= 60*60*24
+                output += `${Math.floor(diff)} day`;
+            }
+            if (diff >= 2) output += "s";
+            if (!in_future) output += " ago";
+            el.innerText = output;
+        }
+    }
+    refreshRelativeTimes();
+</script>

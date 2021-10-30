@@ -1,0 +1,28 @@
+<div style="margin: 2em 0;">
+    <p>
+    [{{ if .Params.Resolved }} 
+        <span style="color: lightgreen">resolved</span>
+     {{ else if .Params.maintenance }}
+        <span style="color: lightblue">maintenance</span>
+     {{ else }}
+        <span style="color: orange">ongoing</span> 
+        {{ end }}] <b><a href="{{ .Permalink }}">{{ .Title }}</a></b>
+
+        <span class="relative" style="float: right" time="{{ .Date.Unix }}">
+            {{ .Date.Format "Jan 2 15:04:05 2006 UTC" }}
+        </span>
+        <p style="margin-left: 3em">
+        {{ if .Params.ResolvedWhen }}
+            {{ $t := (time .Params.ResolvedWhen) }}
+            {{ $timeDiff := (sub $t.Unix .Date.Unix) }}
+            {{ $diffInMin := (div $timeDiff 60) }}
+            <span style="display: block">
+                Resolved after {{$diffInMin}} minutes {{ if eq .Params.severity "down" }} of downtime {{ end }}
+            </span>
+        {{ end }}
+        {{ if not .Params.resolved }} 
+        <span style="display: block"><b>Affecting</b>: {{ delimit .Params.affected ", " }}</span> 
+        {{ end }}
+        </p>
+    </p>
+</div>

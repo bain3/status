@@ -1,0 +1,17 @@
+<html>
+<head>
+    <link rel="stylesheet" href="/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="container">
+    {{ .Render "small" }}
+    <hr/>
+    {{ if and .Params.affected .Params.resolved }} <p><b>Affected</b>: {{ delimit .Params.Affected ", " }}</p> {{ end }}
+    {{ .Content }}
+    <br>
+    <a href="/">&lt;&lt; back to home</a>
+</div>
+{{ partial "jsrelativetime.html" }}
+</body>
+</html>
