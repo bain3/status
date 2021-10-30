@@ -21,6 +21,7 @@ jobs:
         run: |
           git fetch
           git worktree add build build
+          rm -r build/*
 
       - name: Build website
         run: |
