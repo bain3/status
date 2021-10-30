@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>bain.cz status</title>
-    <link>http://status.bain.cz/</link>
-    <description>Recent content on bain.cz status</description>
+    <title>s.bain.cz on bain.cz status</title>
+    <link>http://status.bain.cz/affected/s.bain.cz/</link>
+    <description>Recent content in s.bain.cz on bain.cz status</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 25 Oct 2021 18:46:00 +0200</lastBuildDate>
     
-	<atom:link href="http://status.bain.cz/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://status.bain.cz/affected/s.bain.cz/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

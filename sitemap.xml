@@ -3,43 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://status.bain.cz/affected/</loc>
-    <lastmod>2021-10-25T17:16:11+02:00</lastmod>
+    <loc>http://status.bain.cz/affected/</loc>
+    <lastmod>2021-10-25T18:46:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://status.bain.cz/</loc>
-    <lastmod>2021-10-25T17:16:11+02:00</lastmod>
+    <loc>http://status.bain.cz/</loc>
+    <lastmod>2021-10-25T18:46:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://status.bain.cz/affected/f.bain/</loc>
-    <lastmod>2021-10-25T17:16:11+02:00</lastmod>
+    <loc>http://status.bain.cz/affected/f.bain.cz/</loc>
+    <lastmod>2021-10-25T18:46:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://status.bain.cz/issues/</loc>
-    <lastmod>2021-10-25T17:16:11+02:00</lastmod>
+    <loc>http://status.bain.cz/affected/s.bain.cz/</loc>
+    <lastmod>2021-10-25T18:46:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://status.bain.cz/affected/s.bain/</loc>
-    <lastmod>2021-10-25T17:16:11+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://status.bain.cz/issues/2021-10-25-downtime/</loc>
-    <lastmod>2021-10-25T17:16:11+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://status.bain.cz/pages/example-page/</loc>
-    <lastmod>2021-10-25T17:16:11+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://status.bain.cz/pages/</loc>
-    <lastmod>2021-10-25T17:16:11+02:00</lastmod>
+    <loc>http://status.bain.cz/2021-10-25-downtime/</loc>
+    <lastmod>2021-10-25T18:46:00+02:00</lastmod>
   </url>
   
 </urlset>

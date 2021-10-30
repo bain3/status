@@ -1,39 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <link rel="alternate" type="text/html" href="https://status.bain.cz/"/>
     <title>Affected on bain.cz status</title>
-    <link>https://status.bain.cz/affected/</link>
-    <description>Incident history</description>
-    <generator>github.com/cstate</generator>
-    <language>en</language>
+    <link>http://status.bain.cz/affected/</link>
+    <description>Recent content in Affected on bain.cz status</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Oct 2021 18:46:00 +0200</lastBuildDate>
     
-    <lastBuildDate>2021-10-25T16:46:00+00:00</lastBuildDate>
-    <updated>2021-10-25T16:46:00+00:00</updated>
-    
-    
-    
-      <atom:link href="https://status.bain.cz/affected/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://status.bain.cz/affected/index.xml" rel="self" type="application/rss+xml" />
     
     
-      <item>
-        <title>f.bain</title>
-        <link>https://status.bain.cz/affected/f.bain/</link>
-        <pubDate>Mon, 25 Oct 2021 16:46:00 +0000</pubDate>
-        <guid>https://status.bain.cz/affected/f.bain/</guid>
-        <category></category>
-        <description></description>
-        <content type="html"></content>
-      </item>
+    <item>
+      <title>f.bain.cz</title>
+      <link>http://status.bain.cz/affected/f.bain.cz/</link>
+      <pubDate>Mon, 25 Oct 2021 18:46:00 +0200</pubDate>
+      
+      <guid>http://status.bain.cz/affected/f.bain.cz/</guid>
+      <description></description>
+    </item>
     
-      <item>
-        <title>s.bain</title>
-        <link>https://status.bain.cz/affected/s.bain/</link>
-        <pubDate>Mon, 25 Oct 2021 16:46:00 +0000</pubDate>
-        <guid>https://status.bain.cz/affected/s.bain/</guid>
-        <category></category>
-        <description></description>
-        <content type="html"></content>
-      </item>
+    <item>
+      <title>s.bain.cz</title>
+      <link>http://status.bain.cz/affected/s.bain.cz/</link>
+      <pubDate>Mon, 25 Oct 2021 18:46:00 +0200</pubDate>
+      
+      <guid>http://status.bain.cz/affected/s.bain.cz/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
