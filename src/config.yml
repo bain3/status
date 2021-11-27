@@ -8,6 +8,7 @@ params:
     - f.bain.cz
     - s.bain.cz
     - ts3.bain.cz
+    - git.bain.cz
 
 taxonomies:
   affected: affected
