@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>s.bain.cz on bain.cz status</title>
-    <link>http://status.bain.cz/affected/s.bain.cz/</link>
-    <description>Recent content in s.bain.cz on bain.cz status</description>
+    <title>git.bain.cz on bain.cz status</title>
+    <link>http://status.bain.cz/affected/git.bain.cz/</link>
+    <description>Recent content in git.bain.cz on bain.cz status</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 11 Dec 2021 21:00:00 +0100</lastBuildDate>
     
-	<atom:link href="http://status.bain.cz/affected/s.bain.cz/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://status.bain.cz/affected/git.bain.cz/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>http://status.bain.cz/2021-12-11-maintenance/</guid>
       <description>I am cleaning up some not necessairly unsecure, but some messy certificates that were made when i initially set up the server. Every service will now have its proper certificate.</description>
-    </item>
-    
-    <item>
-      <title>System upgrade</title>
-      <link>http://status.bain.cz/2021-10-25-downtime/</link>
-      <pubDate>Mon, 25 Oct 2021 18:46:00 +0200</pubDate>
-      
-      <guid>http://status.bain.cz/2021-10-25-downtime/</guid>
-      <description>A system upgrade has caused a shut down of all dockerized services. They have all been restarted.</description>
     </item>
     
   </channel>

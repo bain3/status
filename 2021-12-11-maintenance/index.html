@@ -1,13 +1,11 @@
 <html>
-    <head>
-        <link href="/styles.css" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-        <div style="margin: 5em auto; max-width: min(70ch, 95vw)">
-            <h3 style="text-align: center">Incidents affecting s.bain.cz </h3>
-            
-            <div style="margin: 2em 0;">
+<head>
+    <link rel="stylesheet" href="/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="container">
+    <div style="margin: 2em 0;">
     <p>
     [
         <span style="color: lightblue">maintenance</span>
@@ -25,35 +23,15 @@
     </p>
 </div>
 
-            
-            <div style="margin: 2em 0;">
-    <p>
-    [ 
-        <span style="color: lightgreen">resolved</span>
-     ] <b><a href="http://status.bain.cz/2021-10-25-downtime/">System upgrade</a></b>
+    <hr/>
+    
+    <p>I am cleaning up some not necessairly unsecure, but some messy certificates that were
+made when i initially set up the server. Every service will now have its proper
+certificate.</p>
 
-        <span class="relative" style="float: right" time="1635180360">
-            Oct 25 18:46:00 2021 UTC
-        </span>
-        <p style="margin-left: 3em">
-        
-            
-            
-            
-            <span style="display: block">
-                Resolved after 25 minutes  of downtime 
-            </span>
-        
-        
-        </p>
-    </p>
+    <br>
+    <a href="/">&lt;&lt; back to home</a>
 </div>
-
-            
-            <br>
-            <a href="/">&lt;&lt; back to home </a>
-        </div>
-    </body>
 <script defer>
     async function refreshRelativeTimes() {
         for (const el of document.getElementsByClassName('relative')) {
@@ -84,4 +62,5 @@
     refreshRelativeTimes();
 </script>
 
+</body>
 </html>

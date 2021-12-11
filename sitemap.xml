@@ -4,22 +4,32 @@
   
   <url>
     <loc>http://status.bain.cz/affected/</loc>
-    <lastmod>2021-10-25T18:46:00+02:00</lastmod>
+    <lastmod>2021-12-11T21:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://status.bain.cz/</loc>
-    <lastmod>2021-10-25T18:46:00+02:00</lastmod>
+    <lastmod>2021-12-11T21:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://status.bain.cz/affected/f.bain.cz/</loc>
-    <lastmod>2021-10-25T18:46:00+02:00</lastmod>
+    <lastmod>2021-12-11T21:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://status.bain.cz/affected/git.bain.cz/</loc>
+    <lastmod>2021-12-11T21:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://status.bain.cz/affected/s.bain.cz/</loc>
-    <lastmod>2021-10-25T18:46:00+02:00</lastmod>
+    <lastmod>2021-12-11T21:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://status.bain.cz/2021-12-11-maintenance/</loc>
+    <lastmod>2021-12-11T21:00:00+01:00</lastmod>
   </url>
   
   <url>

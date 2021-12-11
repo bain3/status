@@ -6,7 +6,7 @@
     <description>Recent content in Affected on bain.cz status</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Oct 2021 18:46:00 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 11 Dec 2021 21:00:00 +0100</lastBuildDate>
     
 	<atom:link href="http://status.bain.cz/affected/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,16 +14,25 @@
     <item>
       <title>f.bain.cz</title>
       <link>http://status.bain.cz/affected/f.bain.cz/</link>
-      <pubDate>Mon, 25 Oct 2021 18:46:00 +0200</pubDate>
+      <pubDate>Sat, 11 Dec 2021 21:00:00 +0100</pubDate>
       
       <guid>http://status.bain.cz/affected/f.bain.cz/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>git.bain.cz</title>
+      <link>http://status.bain.cz/affected/git.bain.cz/</link>
+      <pubDate>Sat, 11 Dec 2021 21:00:00 +0100</pubDate>
+      
+      <guid>http://status.bain.cz/affected/git.bain.cz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>s.bain.cz</title>
       <link>http://status.bain.cz/affected/s.bain.cz/</link>
-      <pubDate>Mon, 25 Oct 2021 18:46:00 +0200</pubDate>
+      <pubDate>Sat, 11 Dec 2021 21:00:00 +0100</pubDate>
       
       <guid>http://status.bain.cz/affected/s.bain.cz/</guid>
       <description></description>
