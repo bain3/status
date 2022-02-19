@@ -1,0 +1,64 @@
+<html>
+<head>
+    <link rel="stylesheet" href="/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="container">
+    <div style="margin: 2em 0;">
+    <p>
+    [
+        <span style="color: lightblue">maintenance</span>
+     ] <b><a href="http://status.bain.cz/2022-02-19-maintenance/">f.bain update</a></b>
+
+        <span class="relative" style="float: right" time="1645303800">
+            Feb 19 21:50:00 2022 UTC
+        </span>
+        <p style="margin-left: 3em">
+        
+         
+        <span style="display: block"><b>Affecting</b>: f.bain.cz</span> 
+        
+        </p>
+    </p>
+</div>
+
+    <hr/>
+    
+    <p>I am updating f.bain to support websockets</p>
+
+    <br>
+    <a href="/">&lt;&lt; back to home</a>
+</div>
+<script defer>
+    async function refreshRelativeTimes() {
+        for (const el of document.getElementsByClassName('relative')) {
+            let time = new Date(parseInt(el.getAttribute('time'))*1000);
+            let diff = (new Date().getTime()-time)/1000;
+            let in_future = diff < 0;
+            let output = in_future ? "in " : "";
+            diff = Math.abs(diff);
+
+            if (diff < 60) {
+                output += "a few second";
+                diff += 2; 
+            } else if (diff < 60*60) {
+                diff /= 60;
+                output += `${Math.floor(diff)} minute`;
+            } else if (diff < 60*60*24) {
+                diff /= 60*60;
+                output += `${Math.floor(diff)} hour`;
+            } else {
+                diff /= 60*60*24
+                output += `${Math.floor(diff)} day`;
+            }
+            if (diff >= 2) output += "s";
+            if (!in_future) output += " ago";
+            el.innerText = output;
+        }
+    }
+    refreshRelativeTimes();
+</script>
+
+</body>
+</html>
