@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ts3.bain.cz on bain.cz status</title>
+    <link>http://status.bain.cz/affected/ts3.bain.cz/</link>
+    <description>Recent content in ts3.bain.cz on bain.cz status</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 Apr 2022 14:50:00 +0200</lastBuildDate>
+    
+	<atom:link href="http://status.bain.cz/affected/ts3.bain.cz/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>System upgrade</title>
+      <link>http://status.bain.cz/2022-04-09-maintenance/</link>
+      <pubDate>Sat, 09 Apr 2022 14:50:00 +0200</pubDate>
+      
+      <guid>http://status.bain.cz/2022-04-09-maintenance/</guid>
+      <description>I am upgrading the host system for all my services</description>
+    </item>
+    
+  </channel>
+</rss>

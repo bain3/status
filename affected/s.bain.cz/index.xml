@@ -6,10 +6,19 @@
     <description>Recent content in s.bain.cz on bain.cz status</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Dec 2021 21:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 09 Apr 2022 14:50:00 +0200</lastBuildDate>
     
 	<atom:link href="http://status.bain.cz/affected/s.bain.cz/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>System upgrade</title>
+      <link>http://status.bain.cz/2022-04-09-maintenance/</link>
+      <pubDate>Sat, 09 Apr 2022 14:50:00 +0200</pubDate>
+      
+      <guid>http://status.bain.cz/2022-04-09-maintenance/</guid>
+      <description>I am upgrading the host system for all my services</description>
+    </item>
     
     <item>
       <title>TLS certificate renewal, enable IPv6</title>
