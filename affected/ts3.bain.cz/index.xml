@@ -6,10 +6,19 @@
     <description>Recent content in ts3.bain.cz on bain.cz status</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Apr 2022 14:50:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jun 2022 22:39:00 +0200</lastBuildDate>
     
 	<atom:link href="http://status.bain.cz/affected/ts3.bain.cz/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hetzner outage</title>
+      <link>http://status.bain.cz/2022-06-02-downtime/</link>
+      <pubDate>Thu, 02 Jun 2022 22:39:00 +0200</pubDate>
+      
+      <guid>http://status.bain.cz/2022-06-02-downtime/</guid>
+      <description>Hetzner had an outage on the node bain.cz services are running on.</description>
+    </item>
     
     <item>
       <title>System upgrade</title>

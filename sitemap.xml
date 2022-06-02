@@ -4,36 +4,41 @@
   
   <url>
     <loc>http://status.bain.cz/affected/</loc>
-    <lastmod>2022-04-09T14:50:00+02:00</lastmod>
+    <lastmod>2022-06-02T22:39:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>http://status.bain.cz/</loc>
-    <lastmod>2022-04-09T14:50:00+02:00</lastmod>
+    <lastmod>2022-06-02T22:39:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>http://status.bain.cz/affected/f.bain.cz/</loc>
-    <lastmod>2022-04-09T14:50:00+02:00</lastmod>
+    <lastmod>2022-06-02T22:39:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>http://status.bain.cz/affected/git.bain.cz/</loc>
-    <lastmod>2022-04-09T14:50:00+02:00</lastmod>
+    <lastmod>2022-06-02T22:39:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://status.bain.cz/2022-06-02-downtime/</loc>
+    <lastmod>2022-06-02T22:39:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>http://status.bain.cz/affected/s.bain.cz/</loc>
-    <lastmod>2022-04-09T14:50:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://status.bain.cz/2022-04-09-maintenance/</loc>
-    <lastmod>2022-04-09T14:50:00+02:00</lastmod>
+    <lastmod>2022-06-02T22:39:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>http://status.bain.cz/affected/ts3.bain.cz/</loc>
+    <lastmod>2022-06-02T22:39:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://status.bain.cz/2022-04-09-maintenance/</loc>
     <lastmod>2022-04-09T14:50:00+02:00</lastmod>
   </url>
   
