@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>f.bain.cz on bain.cz status</title>
-    <link>http://status.bain.cz/affected/f.bain.cz/</link>
+    <link>https://status.bain.cz/affected/f.bain.cz/</link>
     <description>Recent content in f.bain.cz on bain.cz status</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Jun 2022 22:39:00 +0200</lastBuildDate>
     
-	<atom:link href="http://status.bain.cz/affected/f.bain.cz/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://status.bain.cz/affected/f.bain.cz/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hetzner outage</title>
-      <link>http://status.bain.cz/2022-06-02-downtime/</link>
+      <link>https://status.bain.cz/2022-06-02-downtime/</link>
       <pubDate>Thu, 02 Jun 2022 22:39:00 +0200</pubDate>
       
-      <guid>http://status.bain.cz/2022-06-02-downtime/</guid>
+      <guid>https://status.bain.cz/2022-06-02-downtime/</guid>
       <description>Hetzner had an outage on the node bain.cz services are running on.</description>
     </item>
     
     <item>
       <title>System upgrade</title>
-      <link>http://status.bain.cz/2022-04-09-maintenance/</link>
+      <link>https://status.bain.cz/2022-04-09-maintenance/</link>
       <pubDate>Sat, 09 Apr 2022 14:50:00 +0200</pubDate>
       
-      <guid>http://status.bain.cz/2022-04-09-maintenance/</guid>
+      <guid>https://status.bain.cz/2022-04-09-maintenance/</guid>
       <description>I am upgrading the host system for all my services</description>
     </item>
     
     <item>
       <title>f.bain update</title>
-      <link>http://status.bain.cz/2022-02-19-maintenance/</link>
+      <link>https://status.bain.cz/2022-02-19-maintenance/</link>
       <pubDate>Sat, 19 Feb 2022 21:50:00 +0100</pubDate>
       
-      <guid>http://status.bain.cz/2022-02-19-maintenance/</guid>
+      <guid>https://status.bain.cz/2022-02-19-maintenance/</guid>
       <description>I am updating f.bain to support websockets</description>
     </item>
     
     <item>
       <title>TLS certificate renewal, enable IPv6</title>
-      <link>http://status.bain.cz/2021-12-11-maintenance/</link>
+      <link>https://status.bain.cz/2021-12-11-maintenance/</link>
       <pubDate>Sat, 11 Dec 2021 21:00:00 +0100</pubDate>
       
-      <guid>http://status.bain.cz/2021-12-11-maintenance/</guid>
+      <guid>https://status.bain.cz/2021-12-11-maintenance/</guid>
       <description>I am cleaning up some not necessairly unsecure, but messy certificates that were made when I initially set up the server. Every service will now have its proper certificate. I am also enabling IPv6 on all affected services.</description>
     </item>
     
     <item>
       <title>System upgrade</title>
-      <link>http://status.bain.cz/2021-10-25-downtime/</link>
+      <link>https://status.bain.cz/2021-10-25-downtime/</link>
       <pubDate>Mon, 25 Oct 2021 18:46:00 +0200</pubDate>
       
-      <guid>http://status.bain.cz/2021-10-25-downtime/</guid>
+      <guid>https://status.bain.cz/2021-10-25-downtime/</guid>
       <description>A system upgrade has caused a shut down of all dockerized services. They have all been restarted.</description>
     </item>
     
