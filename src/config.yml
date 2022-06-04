@@ -1,4 +1,4 @@
-baseURL: 'http://status.bain.cz/'
+baseURL: 'https://status.bain.cz/'
 languageCode: 'en-us'
 title: 'bain.cz status'
 buildFuture: true
@@ -9,6 +9,7 @@ params:
     - s.bain.cz
     - ts3.bain.cz
     - git.bain.cz
+    - vault.bain.cz
 
 taxonomies:
   affected: affected
