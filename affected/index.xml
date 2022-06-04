@@ -6,19 +6,10 @@
     <description>Recent content in Affected on bain.cz status</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Jun 2022 14:15:15 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jun 2022 22:39:00 +0200</lastBuildDate>
     
 	<atom:link href="http://status.bain.cz/affected/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>s.bain.cz</title>
-      <link>http://status.bain.cz/affected/s.bain.cz/</link>
-      <pubDate>Sat, 04 Jun 2022 14:15:15 +0200</pubDate>
-      
-      <guid>http://status.bain.cz/affected/s.bain.cz/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>f.bain.cz</title>
@@ -35,6 +26,15 @@
       <pubDate>Thu, 02 Jun 2022 22:39:00 +0200</pubDate>
       
       <guid>http://status.bain.cz/affected/git.bain.cz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>s.bain.cz</title>
+      <link>http://status.bain.cz/affected/s.bain.cz/</link>
+      <pubDate>Thu, 02 Jun 2022 22:39:00 +0200</pubDate>
+      
+      <guid>http://status.bain.cz/affected/s.bain.cz/</guid>
       <description></description>
     </item>
     

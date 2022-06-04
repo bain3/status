@@ -6,19 +6,10 @@
     <description>Recent content in s.bain.cz on bain.cz status</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Jun 2022 14:15:15 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jun 2022 22:39:00 +0200</lastBuildDate>
     
 	<atom:link href="http://status.bain.cz/affected/s.bain.cz/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>s.bain.cz downtime</title>
-      <link>http://status.bain.cz/2022-06-04-041683-downtime/</link>
-      <pubDate>Sat, 04 Jun 2022 14:15:15 +0200</pubDate>
-      
-      <guid>http://status.bain.cz/2022-06-04-041683-downtime/</guid>
-      <description>Automatic checks for s.bain.cz have failed. Requirements [&amp;lsquo;http_requirement&amp;rsquo;] failed.</description>
-    </item>
     
     <item>
       <title>Hetzner outage</title>
