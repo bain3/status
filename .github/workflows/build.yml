@@ -17,25 +17,15 @@ jobs:
           sudo apt-get update
           sudo apt-get install hugo
       
-      - name: Set up build branch
-        run: |
-          git fetch
-          git worktree add build build
-          rm -r build/*
-
       - name: Build website
         run: |
+          mkdir -p build
           cd src
           hugo -d ../build
       
-      - name: Copy CNAME
-        run: cp CNAME build/
-      
-      - name: Commit to build branch
-        run: |
-          git config user.name "GitHub Actions"
-          git config user.email "<>"
-          cd build
-          git add --all
-          git commit -m "build $GITHUB_REF"
-          git push origin build
+      - name: Deploy GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          cname: status.bain.cz
