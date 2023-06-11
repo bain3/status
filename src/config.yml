@@ -7,7 +7,6 @@ params:
   services:
     - f.bain.cz
     - s.bain.cz
-    - ts3.bain.cz
     - git.bain.cz
     - vault.bain.cz
 
