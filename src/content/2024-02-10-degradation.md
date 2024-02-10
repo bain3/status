@@ -8,5 +8,5 @@ affected:
  - git.bain.cz
  - vault.bain.cz
 ---
-There are connectivity problems between Twelve99's routers between Nuremberg
-and Prague. Services might be innacessible for some users.
+There are connectivity problems between Twelve99's routers on route Nuremberg -
+Prague. Services might be inacessible for some users.
